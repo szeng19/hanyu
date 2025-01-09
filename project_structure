@@ -1,0 +1,20 @@
+chinese-redefiner/
+├── app/
+│   ├── __init__.py
+│   ├── main.py           # FastAPI 应用主文件
+│   ├── config.py         # 配置文件（存储 API keys 等）
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   └── explain.py    # API 路由处理
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── ai_service.py # AI 服务调用逻辑
+│   └── templates/        # HTML 模板
+│       └── index.html    # 主页面
+├── static/              # 静态文件
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── main.js
+├── requirements.txt     # 项目依赖
+└── README.md           # 项目说明 
