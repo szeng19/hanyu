@@ -67,3 +67,23 @@
 
 
 # 当前文件结构
+chinese-redefiner/
+├── app/
+│   ├── __init__.py
+│   ├── main.py           # FastAPI 主应用文件
+│   ├── config.py         # 配置文件,存储API密钥等
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   └── explain.py    # API路由处理
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── ai_service.py # AI服务调用逻辑
+│   └── templates/        # HTML模板
+│       └── index.html    # 主页面
+├── static/               # 静态资源文件
+│   ├── css/
+│   │   └── style.css    # 样式表
+│   └── js/
+│       └── main.js      # 前端JavaScript
+├── requirements.txt      # 项目依赖
+└── README.md            # 项目说明文档
